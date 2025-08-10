@@ -53,8 +53,8 @@ npm install
 
 ⚙️ Create .env file
 PORT=5000
-OPENAI_API_KEY=your_openai_key_here
-Replace your_openai_key_here with your actual OpenAI API key.
+API_URL=http://127.0.0.1:11434/api/generate  // llm url
+DATABASE_URL=db url
 
 🚀 Start Backend
 npm run dev
@@ -68,5 +68,6 @@ const BASE_URL = "http://localhost:5000";
 🚀 Start Frontend
 npm run dev
 Open in browser: http://localhost:5173
+
 
 
